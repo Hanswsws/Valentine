@@ -3,6 +3,15 @@ const noBtn = document.getElementById("noBtn");
 const message = document.getElementById("message");
 const img = document.querySelector(".valentine-img");
 
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loading-screen");
+  setTimeout(() => {
+    loader.style.opacity = "0";
+    loader.style.visibility = "hidden";
+  }, 1500); // 1.5 seconds loading
+});
+
+
 yesBtn.addEventListener("click", () => {
   message.innerHTML = "YEYYYY MWAAA!!💖";
 
@@ -41,4 +50,5 @@ function createHearts() {
     setTimeout(() => heart.remove(), 3000);
   }
 }
+
 
