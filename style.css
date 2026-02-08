@@ -74,9 +74,9 @@ button {
 
 .valentine-img {
   width: 70%;  /* or 60%, 75%, whatever looks good */
-  max-height: 700px;
+  max-height: 800px;
   object-fit: cover;
-  border-radius: 11px;
+  border-radius: 12px;
   margin-bottom: 15px;
 }
 
