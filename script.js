@@ -7,8 +7,8 @@ yesBtn.addEventListener("click", () => {
   message.innerHTML = "YEYYYY MWAAA!!💖";
 
   // zoom image
-  img.style.transform = "scale(1.15)";
-  img.style.transition = "0.5s";
+  img.style.transform = "scale(1.20)";
+  img.style.transition = "0.4s";
 
   // background glow
   document.body.style.background = "linear-gradient(135deg, #ff6c87ff, #ffb3c6)";
@@ -41,3 +41,4 @@ function createHearts() {
     setTimeout(() => heart.remove(), 3000);
   }
 }
+
