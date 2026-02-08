@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     loader.style.opacity = "0";
     loader.style.visibility = "hidden";
-  }, 2000); // 1.5 seconds loading
+  }, 4500); // 1.5 seconds loading
 });
 
 
@@ -50,6 +50,7 @@ function createHearts() {
     setTimeout(() => heart.remove(), 3000);
   }
 }
+
 
 
 
